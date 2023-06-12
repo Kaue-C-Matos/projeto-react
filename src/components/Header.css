@@ -1,0 +1,14 @@
+.headerContainer{
+    height: 100px;
+    width: 100%;
+    background-color: #026466;
+    text-align: left;
+    padding-left: 12px;
+
+}
+
+header{
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+}
