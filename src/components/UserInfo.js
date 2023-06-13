@@ -1,9 +1,11 @@
 import "./UserInfo.css"
 
-const UserInfo = ({name, birthday, email}) =>{
+const UserInfo = ({users}) =>{
     return(
         <div className="userContainer">
-            <h3>Nome: {name}, Data de nascimento: {birthday}, e-mail: {email} </h3>
+            {users.map(User =>(
+                <h3>Nome: {User.name}, Data de nascimento: {User.birthday}, e-mail: {User.email} </h3>
+            ))}
         </div>
     )
 }
