@@ -1,4 +1,6 @@
 import './App.css';
+import InputText from './components/InputText';
+import OrderNumbers from './components/OrderNumbers';
 import UserInfo from './components/UserInfo';
 import Header from './components/header';
 
@@ -23,6 +25,8 @@ function App() {
     <div className="App">
         <Header />
         <UserInfo users={listUsers}/>
+        <OrderNumbers/>
+        <InputText/>
     </div>
   );
 }
