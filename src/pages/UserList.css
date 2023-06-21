@@ -1,0 +1,15 @@
+.container{
+    background-color: aquamarine;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.userContainer{
+    background-color: greenyellow;
+    margin-top: 50px;
+    width: 350px;
+    text-align: center;
+}
